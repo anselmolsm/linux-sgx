@@ -84,8 +84,6 @@ PCL_INCLUDE_PATH	:= -I$(COMMON_DIR)/inc \
                        -I$(COMMON_DIR)/inc/internal \
                        -I./crypto \
                        -I./unseal \
-                       -I/usr/include \
-                       -I/usr/include/x86_64-linux-gnu \
                        -I./ 
 
 TCFLAGS := $(filter-out -ffunction-sections -fdata-sections, $(CFLAGS))

@@ -52,7 +52,7 @@
 typedef struct 
 {
     size_t          nr_ecall;
-    ecall_addr_t    ecall_table[0];
+    ecall_addr_t    ecall_table[];
 } sl_ecall_table_t;
 
 extern const sl_ecall_table_t g_ecall_table;
